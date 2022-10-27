@@ -1,0 +1,13 @@
+            <nav aria-label="Pagenation">
+              <ul class="pagination justify-content-center">
+                  {% if page_obj.has_previous %}
+                  <a class="page-link" href="?page={{page_obj.number|add:-1}}" tabindex="-1" aria-disabled="true">Previous</a>
+                    {% endif %}
+                    {% for page in page_obj.paginator.page_range %}
+                    <li class="page-item"><a class="page-link" href="?page={{page}}">{{page}}</a></li>
+                    {% endfor %}
+                    {% if page_obj.has_next %}
+                    <a class="page-link" href="?page={{page_obj.number|add:1}}">Next</a>
+                    {% endif %}
+              </ul>
+            </nav>

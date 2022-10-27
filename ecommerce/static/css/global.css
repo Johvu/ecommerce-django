@@ -1,0 +1,21 @@
+html body{
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    background: rgba(217, 217, 217, 0.71);
+}
+
+.discount-item{
+    text-decoration: line-through;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+  }
+
+
+nav {
+    margin-bottom: 10px;
+}
