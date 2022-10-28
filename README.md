@@ -1,1 +1,1 @@
-Some school project that i didint finish
+School project that i didint finish
